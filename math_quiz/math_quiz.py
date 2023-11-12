@@ -42,7 +42,7 @@ def math_quiz():
 
     for _ in range(total_questions):
         num1 = generate_random_integer(1, 10)
-        num2 = generate_random_integer(1, 5.5)
+        num2 = generate_random_integer(1, 5)
         operator = generate_random_operator()
 
         problem, correct_answer = perform_operation(num1, num2, operator)
